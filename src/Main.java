@@ -13,7 +13,7 @@ public class Main {
         system.zarezerwujLot(system.dostepneLoty.get(0), "Jan Kowalski", 200.0);
         system.wyswietlDostepneLoty(); // Po rezerwacji liczba dostępnych miejsc powinna się zmniejszyć
 
-        // anulowanie rezerwacji
+        // anulowanie rezerwacj
         Reservation rezerwacja = system.rezerwacje.get(0);
         system.anulujRezerwacje(rezerwacja);
         system.wyswietlDostepneLoty();
